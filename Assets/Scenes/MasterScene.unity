@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 376937233}
   - component: {fileID: 376937232}
   - component: {fileID: 376937231}
+  - component: {fileID: 376937234}
   m_Layer: 5
   m_Name: Button 3
   m_TagString: Untagged
@@ -323,6 +324,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376937229}
   m_CullTransparentMesh: 1
+--- !u!114 &376937234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376937229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8343d51470fa5bc4793cc6165b21538c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 376937231}
+  sceneName: Scene3
 --- !u!1 &485893931
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +578,7 @@ GameObject:
   - component: {fileID: 964820082}
   - component: {fileID: 964820081}
   - component: {fileID: 964820080}
+  - component: {fileID: 964820083}
   m_Layer: 5
   m_Name: Button 1
   m_TagString: Untagged
@@ -672,6 +688,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964820078}
   m_CullTransparentMesh: 1
+--- !u!114 &964820083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964820078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8343d51470fa5bc4793cc6165b21538c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 964820080}
+  sceneName: Scene1
 --- !u!1 &967967442
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,6 +975,7 @@ GameObject:
   - component: {fileID: 2079611264}
   - component: {fileID: 2079611263}
   - component: {fileID: 2079611262}
+  - component: {fileID: 2079611265}
   m_Layer: 5
   m_Name: Button 2
   m_TagString: Untagged
@@ -1054,3 +1085,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079611260}
   m_CullTransparentMesh: 1
+--- !u!114 &2079611265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079611260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8343d51470fa5bc4793cc6165b21538c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 2079611262}
+  sceneName: Scene2
